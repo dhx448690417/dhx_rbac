@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="__STATIC__/css/bootstrap.min.css">
+	<script src="__STATIC__/js/jquery.min.js"></script>
+	<script src="__STATIC__/js/bootstrap.min.js"></script>
+	<style>
+		.left-menu{
+
+		}
+	</style>
+</head> 
+<body>
+	<nav class="navbar navbar-inverse">
+		<div class="navbar-header">
+			<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#liebiao">
+				<span class="sr-only">yes</span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand">Dhx_RABC</a>
+		</div>
+		<div class="collapse navbar-collapse" id="liebiao">
+			<ul class="nav navbar-nav navbar-left">
+				<li><a href="#">首页</a></li>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">首页</a></li>
+				<li><a href="{:url('shopcar')}">购物车</a></li>
+			</ul>
+		
+			<div class="navbar-brand pull-right">
+				<a href="#">Hi 邓浩鑫</a>
+			</div>
+		</div>
+	</nav>
+	<div class="row">
+		<div class="col-md-2" style="background: #cccccc;height: 800px;position: relative;top:-20px">
+                       <ul id="main-nav" class="nav nav-tabs nav-stacked" style="">
+
+					<li>
+						<a href="#yemian" class="nav-header collapsed" data-toggle="collapse">
+							<i class="glyphicon glyphicon-star"></i>
+							测试页面
+							<span class="pull-right glyphicon glyphicon-chevron-down"></span>
+						</a>
+						<ul id="yemian" class="nav nav-list collapse secondmenu" style="height: 0px;">
+							<li><a href="#">测试页面1</a></li>
+							<li><a href="#">测试页面2</a></li>
+							<li><a href="#">测试页面3</a></li>
+							<li><a href="#">测试页面4</a></li>
+							<li><a href="#">测试页面5</a></li>
+						</ul>
+					</li>
+
+                    <li>
+
+                        <a href="#systemSetting" class="nav-header collapsed" data-toggle="collapse">
+
+                            <i class="glyphicon glyphicon-cog"></i>
+
+                            系统管理
+
+                            <span class="pull-right glyphicon glyphicon-chevron-down"></span>
+
+                        </a>
+
+                        <ul id="systemSetting" class="nav nav-list collapse secondmenu" style="height: 0px;">
+
+                            <li><a href="mytask"><i class="glyphicon glyphicon-user"></i>用户管理</a></li>
+
+                            <li><a href="#"><i class="glyphicon glyphicon-th-list"></i>权限管理</a></li>
+
+                            <li><a href="#"><i class="glyphicon glyphicon-asterisk"></i>角色管理</a></li>
+
+
+                        </ul>
+
+                    </li>
+
+                </ul>
+		</div>
+		<div class="col-md-10">
+			主窗口
+		</div>
+	</div>
+</body>
+</html>
